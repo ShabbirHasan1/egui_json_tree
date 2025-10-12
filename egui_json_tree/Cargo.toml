@@ -5,6 +5,7 @@ description = "An interactive JSON tree visualiser for egui, with search and hig
 keywords = ["json", "egui", "gui", "ui", "widget"]
 categories = ["gui", "visualization"]
 include = ["src/*.rs", "../LICENSE-MIT", "../LICENSE-APACHE", "Cargo.toml"]
+readme = "../README.md"
 publish = true
 
 authors.workspace = true
