@@ -9,10 +9,10 @@
 An interactive JSON tree visualiser for [`egui`](https://github.com/emilk/egui), with search and highlight functionality.
 
 <p align="center">
-  <img src="./media/search_example.gif" alt="Search Example"/>
+  <img src="https://raw.githubusercontent.com/dmackdev/egui_json_tree/refs/heads/main/media/search_example.gif" alt="Search Example"/>
 </p>
 
-See the demo [source code](./demo) and [webpage](https://dmackdev.github.io/egui_json_tree) for detailed use cases, including:
+See the demo [source code](https://github.com/dmackdev/egui_json_tree/tree/main/demo) and [webpage](https://dmackdev.github.io/egui_json_tree) for detailed use cases, including:
 
 - Automatic expansion of arrays/objects and highlighting, based on search term matches.
 - Copying JSON paths and values to the clipboard.
@@ -62,7 +62,7 @@ let response = JsonTree::new("customised-tree", &value)
     })
     .show(ui);
 
-// By default, the tree will expand/collapse all arrays/objects 
+// By default, the tree will expand/collapse all arrays/objects
 // to respect the `default_expand` setting when it changes.
 // If required, you can manually trigger this reset, e.g. after a button press:
 if ui.button("Reset").clicked() {
@@ -86,5 +86,5 @@ If you wish to use a different JSON type, see the `value` module, and disable de
 ## Run Demo App
 
 ```bash
-cargo run -p demo
+cargo run -p demo --release
 ```
