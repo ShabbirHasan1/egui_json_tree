@@ -2,7 +2,7 @@
 
 This demo demonstrates `egui_json_tree` and its capabilities in an `egui`/`eframe` app.
 
-See various use cases implemented in the [/apps](https://github.com/dmackdev/egui_json_tree/tree/main/demo/src/apps) folder, which includes:
+See various use cases implemented in the [src/apps](https://github.com/dmackdev/egui_json_tree/tree/main/demo/src/apps) folder, which includes:
 
 - Automatic expansion of arrays/objects and highlighting, based on search term matches.
 - Copying JSON paths and values to the clipboard.
